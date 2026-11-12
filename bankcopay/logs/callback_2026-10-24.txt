@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-10-24 08:56:26",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "419",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261087096\",\"paymentmsgid\":\"FAYSPKKA241026085436240005\",\"currency\":\"PKR\",\"amount\":13305,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"243543666080002\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261087096,\"customername\":\"MMS FATEH PUR\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 13305,
+    "txnid": "FAYSPKKA241026085436240005",
+    "orderid": "243543666080002",
+    "ChallanNo": 261087096
+}

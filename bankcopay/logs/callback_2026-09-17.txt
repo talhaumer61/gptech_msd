@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-09-17 17:22:08",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "418",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260917785\",\"paymentmsgid\":\"NAYAPKKA260917172158801651\",\"currency\":\"PKR\",\"amount\":40,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"159605498195787\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260917785,\"customername\":\"TEST CAMPUS LHS\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 40,
+    "txnid": "NAYAPKKA260917172158801651",
+    "orderid": "159605498195787",
+    "ChallanNo": 260917785
+}

@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-11-04 10:45:09",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "425",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261179350\",\"paymentmsgid\":\"TMICFBPK041126058170489983\",\"currency\":\"PKR\",\"amount\":24000,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"180230180741173\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261179350,\"customername\":\"MMS PINDI GHEB CITY\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 24000,
+    "txnid": "TMICFBPK041126058170489983",
+    "orderid": "180230180741173",
+    "ChallanNo": 261179350
+}

@@ -1,0 +1,54 @@
+
+==================================================
+{
+    "Date": "2026-09-18 11:43:37",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "423",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260971987\",\"paymentmsgid\":\"BAFLP2M1022767e5b1a4690949da602\",\"currency\":\"PKR\",\"amount\":26544,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"402570978638715\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260971987,\"customername\":\"MMS CHANDALI\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 26544,
+    "txnid": "BAFLP2M1022767e5b1a4690949da602",
+    "orderid": "402570978638715",
+    "ChallanNo": 260971987
+}
+
+==================================================
+{
+    "Date": "2026-09-18 16:02:59",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "436",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260945949\",\"paymentmsgid\":\"TMICFBPK180926056008081524\",\"currency\":\"PKR\",\"amount\":12870,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"324640892852364\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260945949,\"customername\":\"MMS MANKIALA MUSLIM GUJAR KHAN\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 12870,
+    "txnid": "TMICFBPK180926056008081524",
+    "orderid": "324640892852364",
+    "ChallanNo": 260945949
+}

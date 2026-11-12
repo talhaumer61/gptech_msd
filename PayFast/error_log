@@ -1,0 +1,86 @@
+[03-Mar-2026 12:28:50 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:28:50 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:30:28 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:30:28 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:34:30 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:34:30 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:39:15 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:39:15 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:41:57 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:41:57 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:44:48 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:44:48 Asia/Karachi] PayFast Response: error code: 522
+[03-Mar-2026 12:59:00 Asia/Karachi] PayFast HTTP Code: 522
+[03-Mar-2026 12:59:00 Asia/Karachi] PayFast Response: error code: 522
+[03-Apr-2026 10:36:58 Asia/Karachi] PayFast HTTP Code: 400
+[03-Apr-2026 10:36:58 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-04-03 10:36:58"
+}
+[04-Aug-2026 08:44:24 Asia/Karachi] PayFast HTTP Code: 400
+[04-Aug-2026 08:44:24 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-08-04 08:44:24"
+}
+[17-Aug-2026 10:54:50 Asia/Karachi] PayFast HTTP Code: 504
+[17-Aug-2026 10:54:50 Asia/Karachi] PayFast Response: error code: 504
+
+[22-Sep-2026 16:58:17 Asia/Karachi] PayFast HTTP Code: 400
+[22-Sep-2026 16:58:17 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-09-22 16:58:17"
+}
+[22-Sep-2026 16:58:37 Asia/Karachi] PayFast HTTP Code: 400
+[22-Sep-2026 16:58:37 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-09-22 16:58:37"
+}
+[22-Sep-2026 17:02:26 Asia/Karachi] PayFast HTTP Code: 400
+[22-Sep-2026 17:02:26 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-09-22 17:02:26"
+}
+[22-Sep-2026 17:06:19 Asia/Karachi] PayFast HTTP Code: 400
+[22-Sep-2026 17:06:19 Asia/Karachi] PayFast Response: {
+  "http_status": "400",
+  "code": "400",
+  "message": [
+    "total_amount should contain at least 1 digit"
+  ],
+  "data": null,
+  "level": "error",
+  "timestamp": "2026-09-22 17:06:19"
+}
+[06-Oct-2026 14:52:51 Asia/Karachi] PayFast HTTP Code: 502
+[06-Oct-2026 14:52:51 Asia/Karachi] PayFast Response: error code: 502
+

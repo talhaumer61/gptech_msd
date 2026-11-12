@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-10-08 09:50:13",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "418",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261095154\",\"paymentmsgid\":\"UBL081026095004346637886\",\"currency\":\"PKR\",\"amount\":5840,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"168832073381046\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261095154,\"customername\":\"MMS AHMAD NAGAR\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 5840,
+    "txnid": "UBL081026095004346637886",
+    "orderid": "168832073381046",
+    "ChallanNo": 261095154
+}

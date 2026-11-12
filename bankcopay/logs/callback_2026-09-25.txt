@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-09-25 15:56:49",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "425",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260931241\",\"paymentmsgid\":\"BPUNPKKA202609251889864232127472\",\"currency\":\"PKR\",\"amount\":47000,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"961864549023258\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260931241,\"customername\":\"MMS GANGA PUR\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 47000,
+    "txnid": "BPUNPKKA202609251889864232127472",
+    "orderid": "961864549023258",
+    "ChallanNo": 260931241
+}

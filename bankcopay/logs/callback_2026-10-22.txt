@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-10-22 06:22:34",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "416",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261053410\",\"paymentmsgid\":\"MSHQ261022062227179596\",\"currency\":\"PKR\",\"amount\":4132,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"753279475700973\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261053410,\"customername\":\"MMS SANGLA HILL\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 4132,
+    "txnid": "MSHQ261022062227179596",
+    "orderid": "753279475700973",
+    "ChallanNo": 261053410
+}

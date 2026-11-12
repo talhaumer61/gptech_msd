@@ -1,0 +1,54 @@
+
+==================================================
+{
+    "Date": "2026-09-28 10:40:14",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "421",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260949278\",\"paymentmsgid\":\"ABPAPKKA280926260928483307\",\"currency\":\"PKR\",\"amount\":5947,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"861910792953811\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260949278,\"customername\":\"MGS Haveli Lakha\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 5947,
+    "txnid": "ABPAPKKA280926260928483307",
+    "orderid": "861910792953811",
+    "ChallanNo": 260949278
+}
+
+==================================================
+{
+    "Date": "2026-09-28 11:40:09",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "419",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260934938\",\"paymentmsgid\":\"FAYSPKKA280926113918826509\",\"currency\":\"PKR\",\"amount\":12703,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"701223967422223\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260934938,\"customername\":\"MMS FATEH PUR\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 12703,
+    "txnid": "FAYSPKKA280926113918826509",
+    "orderid": "701223967422223",
+    "ChallanNo": 260934938
+}

@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-09-30 11:33:16",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "419",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260939495\",\"paymentmsgid\":\"7903032665366869\",\"currency\":\"PKR\",\"amount\":25000,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"941749233750653\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260939495,\"customername\":\"LHS Noor-ul-Huda Campus\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 25000,
+    "txnid": "7903032665366869",
+    "orderid": "941749233750653",
+    "ChallanNo": 260939495
+}

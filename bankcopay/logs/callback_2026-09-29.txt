@@ -1,0 +1,27 @@
+
+==================================================
+{
+    "Date": "2026-09-29 12:02:24",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "421",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015260963113\",\"paymentmsgid\":\"ABPAPKKA290926260929497962\",\"currency\":\"PKR\",\"amount\":3155,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"698911535238962\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":260963113,\"customername\":\"MGS Haveli Lakha\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 3155,
+    "txnid": "ABPAPKKA290926260929497962",
+    "orderid": "698911535238962",
+    "ChallanNo": 260963113
+}

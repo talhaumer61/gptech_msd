@@ -1,0 +1,81 @@
+
+==================================================
+{
+    "Date": "2026-10-13 09:16:04",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "427",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261081508\",\"paymentmsgid\":\"BAFLP2M4857445228fd4ad7b6692bb0\",\"currency\":\"PKR\",\"amount\":13531,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"867510860280749\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261081508,\"customername\":\"MMS Abdul Hakeem\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 13531,
+    "txnid": "BAFLP2M4857445228fd4ad7b6692bb0",
+    "orderid": "867510860280749",
+    "ChallanNo": 261081508
+}
+
+==================================================
+{
+    "Date": "2026-10-13 11:08:00",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "441",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261096754\",\"paymentmsgid\":\"TMICFBPK131026057245888141\",\"currency\":\"PKR\",\"amount\":10000,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"286742388626109\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261096754,\"customername\":\"MMS BANGASH COLONY RAWALPINDI (RP Z\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 10000,
+    "txnid": "TMICFBPK131026057245888141",
+    "orderid": "286742388626109",
+    "ChallanNo": 261096754
+}
+
+==================================================
+{
+    "Date": "2026-10-13 11:48:58",
+    "Method": "POST",
+    "URI": "/bankcopay/success",
+    "IP": "187.77.169.19",
+    "User-Agent": "",
+    "Headers": {
+        "Accept": "*/*",
+        "Content-Type": "application/json",
+        "Content-Length": "426",
+        "Host": "msd.gptech.pk"
+    },
+    "Raw Request": "{\"response\":{\"success\":true,\"code\":200,\"description\":\"Transaction status retrieved successfully\",\"error\":null},\"transaction\":{\"billnumber\":\"10015261015916\",\"paymentmsgid\":\"BAFLP2Mf2e1ad4c1f9e465ba764b280\",\"currency\":\"PKR\",\"amount\":4570,\"paymentstatus\":\"success\"},\"merchant\":{\"orderid\":\"472970719395828\",\"storeid\":\"12345\",\"merchantname\":\"LAUREL PUBLISHERS\"},\"customer\":{\"challanno\":261015916,\"customername\":\"MMS Abdul Hakeem\"}}"
+}
+
+==================================================
+{
+    "code": 200,
+    "description": "Transaction status retrieved successfully",
+    "paymentstatus": "success",
+    "amount": 4570,
+    "txnid": "BAFLP2Mf2e1ad4c1f9e465ba764b280",
+    "orderid": "472970719395828",
+    "ChallanNo": 261015916
+}
